@@ -28,6 +28,7 @@ export default function Hero() {
   `;
   const HeroImage = styled.img`
     width: 350px;
+    padding: 0 0 0 20px;
   `;
   const Span = styled.span`
     color: #4e1c80;

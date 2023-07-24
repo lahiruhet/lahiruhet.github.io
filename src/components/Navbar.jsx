@@ -8,7 +8,7 @@ export default function Navbar() {
     @media (max-width: 768px) {
       /* Adjust styles for smartphones */
       padding: 10px 20px 0 20px;
-      margin: 40px 0 0 0;
+      margin: 20px 0 0 0;
     }
   `;
   const Wrapper = styled.div`
@@ -32,14 +32,13 @@ export default function Navbar() {
     color: #ffffff;
   `;
 
-  const Logo = styled.img`
-    height: 45px;
-    @media (max-width: 768px) {
-      height: 35px;
-    }
+  const List = styled.ul``;
+  const ListItem = styled.li``;
+  const Anchor = styled.a`
+    list-style: none;
+    color: inherit;
+    text-decoration: none;
   `;
-
-  const isMobileView = window.innerWidth <= 768;
 
   return (
     <Container>
@@ -48,13 +47,11 @@ export default function Navbar() {
           <Home href="#">lahiruhet</Home>
         </Left>
         <Right>
-          {/* <List>
-            <ListItem>About Me</ListItem>
-            <ListItem>Projects</ListItem>
-            <ListItem>Portfolio</ListItem>
-          </List> */}
-          {!isMobileView && <p>based on</p>}
-          <Logo src="https://i.imgur.com/ffJ72Qm.png"></Logo>
+          <List>
+            <Anchor href="https://drive.google.com/file/d/1ol7SNq8XY0vJkjx0mXpmAjn21-6LESZW/view?usp=sharing">
+              <ListItem>Resume</ListItem>
+            </Anchor>
+          </List>
         </Right>
       </Wrapper>
     </Container>

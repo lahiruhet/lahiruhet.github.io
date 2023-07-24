@@ -4,6 +4,8 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
   const Container = styled.div`
     padding: 0 100px 10px 100px;
+    display: flex;
+    justify-content: center;
     @media (max-width: 768px) {
       /* Adjust styles for smartphones */
       padding: 10px 20px;
@@ -11,6 +13,7 @@ export default function Projects() {
     }
   `;
   const Wrapper = styled.div`
+    max-width: 1201.62px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
