@@ -54,7 +54,7 @@ export default function Projects() {
           </Description>
         </Header>
         <Projects>
-          <GithubRed href="#">
+          <GithubRed href="https://github.com/lahiruhet/lahiruhet.github.io">
             <ProjectCard
               title="Portfolio Website"
               description="Showcase of my projects built from the ground up in a flash, this portfolio embodies simplicity and efficiency."
@@ -62,7 +62,7 @@ export default function Projects() {
               color="#08DDFF"
             />
           </GithubRed>
-          <GithubRed href="#">
+          <GithubRed href="https://github.com/lahiruhet/car-rental-management-system">
             <ProjectCard
               title="Rent A Car"
               description="A web-based car rental system which allows users to search for available cars, make reservations and much more."
@@ -70,7 +70,7 @@ export default function Projects() {
               color="#F37623"
             />
           </GithubRed>
-          <GithubRed href="#">
+          <GithubRed href="https://github.com/lahiruhet/EasyFedoraMedia">
             <ProjectCard
               title="EasyFedoraMedia"
               description="A script that automates the installation of multimedia packages and codecs on a fresh install of Fedora."
@@ -78,7 +78,7 @@ export default function Projects() {
               color="#232C34"
             />
           </GithubRed>
-          <GithubRed href="#">
+          <GithubRed href="https://github.com/lahiruhet/JustAnotherBlog">
             <ProjectCard
               title="JustAnotherBlog"
               description="Simple blog where anyone can write and read blogs created using node/express and ejs."
@@ -86,7 +86,7 @@ export default function Projects() {
               color="green"
             />
           </GithubRed>
-          <GithubRed href="#">
+          <GithubRed href="https://github.com/lahiruhet/amtshipping">
             <ProjectCard
               title="AMT Shipping"
               description="Modern and elgent website created for an imaginary transport company. Utilizes Bootstrap templates."
